@@ -4,7 +4,7 @@ import NavBar from "./components/NavBAr";
 const App = () =>{
   return(
     <div>
-      <NavBar />
+      <NavBar className="bg-dark"/>
       <ItemListContainer greeting={"Sitio en mantenimiento!"}/>
     </div>
   )
